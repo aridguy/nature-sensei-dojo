@@ -1,9 +1,11 @@
 import React from 'react'
 
+import Navbar from '../../Components/Navbar/Navbar'
+
 const Home = () => {
     return(
         <div>
-        <h1 className='text-primary'>Welcome to sensie dojo karate</h1>
+        <Navbar />
         
         
         
