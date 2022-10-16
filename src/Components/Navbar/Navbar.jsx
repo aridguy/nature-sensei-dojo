@@ -22,6 +22,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
+                <p className='close'>X</p>
             </div>
 
             <nav class="navbar navbar-inverse">

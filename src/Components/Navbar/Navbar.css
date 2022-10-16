@@ -192,3 +192,27 @@
 i{
     margin-left: 2em
 }
+
+.close {
+    color: white;
+    position: relative;
+    bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* medias queries only */
+
+@media only screen and (max-width: 600px) {
+	.topnav{
+        display: none;
+    }
+}
