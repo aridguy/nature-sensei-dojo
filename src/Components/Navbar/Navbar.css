@@ -86,7 +86,7 @@ i{
 
     .nav>.nav-btn>label:hover,
     .nav #nav-check:checked~.nav-btn>label {
-        background-color: rgba(118, 10, 92, 0.3);
+        background-color: #148be0;
     }
 
     .nav>.nav-btn>label>span {
@@ -100,7 +100,7 @@ i{
         position: absolute;
         display: block;
         width: 100%;
-        background-color: rgba(118, 10, 93, 0.644);
+        background-color: #148be0;
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;

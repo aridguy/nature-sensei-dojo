@@ -3,6 +3,9 @@ import React from 'react'
 import "./Navbar.css"
 import Logos from '../../Assets/Logo.png'
 
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+
 const Navbar = () => {
   return (
     <div>
@@ -26,7 +29,7 @@ const Navbar = () => {
         <p className='close'>X</p>
       </div>
       <header>
-      <div className="nav">
+      <div className="nav navbar-fixed-top">
           <input type="checkbox" id="nav-check" />
           <div className="nav-header">
               <div className="nav-title">
@@ -46,13 +49,21 @@ const Navbar = () => {
               <li>What We Do</li>
               <li>Vision/Mission</li>
               <li>Contact Us</li>
-
               <li>
                   <button className="btn btn-warning donate">Volunteer</button>
               </li>
           </div>
       </div>
   </header>
+
+  <main>
+  <AwesomeSlider>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </AwesomeSlider>
+  </main>
         
          
       

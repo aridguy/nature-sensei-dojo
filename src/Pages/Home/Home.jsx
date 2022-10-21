@@ -7,8 +7,7 @@ const Home = () => {
         <div>
         <Navbar />
         
-        
-        
+
         
         </div>
     )
