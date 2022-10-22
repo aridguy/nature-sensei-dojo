@@ -30,10 +30,10 @@ i{
     z-index: 999;
     height: 70px;
     width: 100%;
-    background-color: #148be0;
+    background-color: #148be083;
     position: relative;
     /* box-shadow: 2px 2px 20px 4px black; */
-    position: fixed;
+
 }
 
 .nav>.nav-header {
@@ -96,6 +96,8 @@ i{
         border-top: 2px solid #eee;
     }
 
+
+    /* THE NAVIGATION DROP DOWN BUTTON SECTION */
     .nav>.nav-links {
         position: absolute;
         display: block;
@@ -104,8 +106,9 @@ i{
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
-        top: 50px;
+        top: 70px;
         left: 0px;
+        
     
     }
 
