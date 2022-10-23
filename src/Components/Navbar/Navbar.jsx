@@ -57,11 +57,11 @@ const Navbar = () => {
   </header>
 
   <main>
-  <AwesomeSlider animation="cubeAnimation">
-    <div data-src="/path/to/image-0.png" />
-    <div data-src="./Assets/girl2.jpeg" />
-    <div data-src="/path/to/image-2.jpg" />
-    <div data-src="/path/to/image-2.jpg" />
+  <AwesomeSlider>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
   </AwesomeSlider>
   </main>
         
