@@ -29,44 +29,48 @@ const Navbar = () => {
         <p className='close'>X</p>
       </div>
       <header>
-      <div className="nav navbar-fixed-top">
+        <div className="nav navbar-fixed-top">
           <input type="checkbox" id="nav-check" />
           <div className="nav-header">
-              <div className="nav-title">
-                  <img className="brand" src={Logos} alt="Logo" />
-              </div>
+            <div className="nav-title">
+              <img className="brand" src={Logos} alt="Logo" />
+            </div>
           </div>
+
           <div className="nav-btn">
-              <label for="nav-check">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-              </label>
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
           </div>
           <div className="nav-links navigationbar">
-              <li >Home</li>
-              <li id="#aboutUs">About</li>
-              <li>What We Do</li>
-              <li>Vision/Mission</li>
-              <li>Contact Us</li>
-              <li>
-                  <button className="btn btn-warning donate">Volunteer</button>
-              </li>
+            <li >Home</li>
+            <li id="#aboutUs">About</li>
+            <li>What We Do</li>
+            <li>Vision/Mission</li>
+            <li>Contact Us</li>
+            <li>
+              <button className="btn btn-warning donate">Volunteer</button>
+            </li>
           </div>
-      </div>
-  </header>
+        </div>
+      </header>
 
-  <main>
-  <AwesomeSlider>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-  </AwesomeSlider>
-  </main>
-        
-         
+      <main>
+      <AwesomeSlider>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </AwesomeSlider>
+      </main>
+
       
+
+
+
+
     </div>
   )
 }
